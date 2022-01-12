@@ -1,0 +1,726 @@
+[
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-0f89681a05a3a9de7",
+    "InstanceId": "i-0177c83fb3b431ec4",
+    "InstanceType": "t2.micro",
+    "LaunchTime": "2021-07-09T09:38:01+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1c",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-32-13.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.32.13",
+    "ProductCodes": [],
+    "PublicDnsName": "",
+    "State": {
+      "Code": 80,
+      "Name": "stopped"
+    },
+    "StateTransitionReason": "User initiated (2021-08-13 11:22:37 GMT)",
+    "SubnetId": "subnet-43078919",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-3",
+        "GroupId": "sg-08cf8261413ef2950"
+      }
+    ],
+    "SourceDestCheck": true,
+    "StateReason": {
+      "Code": "Client.UserInitiatedShutdown",
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+    },
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {},
+    "DaysActive": 187
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-02b4e72b17337d6c1",
+    "InstanceId": "i-0f2ed254a307e9ae1",
+    "InstanceType": "t2.micro",
+    "KeyName": "rnd",
+    "LaunchTime": "2021-08-02T09:29:58+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1b",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-27-26.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.27.26",
+    "ProductCodes": [],
+    "PublicDnsName": "",
+    "State": {
+      "Code": 80,
+      "Name": "stopped"
+    },
+    "StateTransitionReason": "User initiated (2021-08-13 11:22:37 GMT)",
+    "SubnetId": "subnet-68c19d20",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "default",
+        "GroupId": "sg-c0b43bb6"
+      }
+    ],
+    "SourceDestCheck": true,
+    "StateReason": {
+      "Code": "Client.UserInitiatedShutdown",
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+    },
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Volume-snapshot-CREATION-test-instance"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {},
+    "DaysActive": 163
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-02b4e72b17337d6c1",
+    "InstanceId": "i-0a12c170a971f50c4",
+    "InstanceType": "t2.micro",
+    "KeyName": "rnd",
+    "LaunchTime": "2021-08-02T11:45:46+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1b",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-22-147.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.22.147",
+    "ProductCodes": [],
+    "PublicDnsName": "",
+    "State": {
+      "Code": 80,
+      "Name": "stopped"
+    },
+    "StateTransitionReason": "User initiated (2021-08-13 11:22:37 GMT)",
+    "SubnetId": "subnet-68c19d20",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "default",
+        "GroupId": "sg-c0b43bb6"
+      }
+    ],
+    "SourceDestCheck": true,
+    "StateReason": {
+      "Code": "Client.UserInitiatedShutdown",
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+    },
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Volume-snapshot-RECOVERY-test-instance"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {},
+    "DaysActive": 163
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-0a8e758f5e873d1c1",
+    "InstanceId": "i-0c09c8a02e1342060",
+    "InstanceType": "t2.micro",
+    "KeyName": "rnd",
+    "LaunchTime": "2021-10-27T12:14:19+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1b",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-22-73.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.22.73",
+    "ProductCodes": [],
+    "PublicDnsName": "",
+    "State": {
+      "Code": 80,
+      "Name": "stopped"
+    },
+    "StateTransitionReason": "User initiated (2021-12-27 14:14:33 GMT)",
+    "SubnetId": "subnet-68c19d20",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/sda1",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-2",
+        "GroupId": "sg-062d7c33ebc02fa37"
+      }
+    ],
+    "SourceDestCheck": true,
+    "StateReason": {
+      "Code": "Client.UserInitiatedShutdown",
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+    },
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "BTRFS-shrink-test"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": false,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "DaysActive": 77
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-04dd4500af104442f",
+    "InstanceId": "i-08ca95bfccba121c9",
+    "InstanceType": "t2.micro",
+    "KeyName": "vitalii-test",
+    "LaunchTime": "2022-01-05T10:32:48+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1c",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-39-12.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.39.12",
+    "ProductCodes": [],
+    "PublicDnsName": "ec2-3-250-156-122.eu-west-1.compute.amazonaws.com",
+    "PublicIpAddress": "3.250.156.122",
+    "State": {
+      "Code": 16,
+      "Name": "running"
+    },
+    "StateTransitionReason": "",
+    "SubnetId": "subnet-43078919",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-10",
+        "GroupId": "sg-005a0c5be69a22ee1"
+      }
+    ],
+    "SourceDestCheck": true,
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "test_instance"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": true,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "DaysActive": 7
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-09ce2fc392a4c0fbc",
+    "InstanceId": "i-0076bb5ccf5b18e3b",
+    "InstanceType": "t1.micro",
+    "LaunchTime": "2022-01-10T12:00:31+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1c",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-39-20.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.39.20",
+    "ProductCodes": [],
+    "PublicDnsName": "ec2-54-217-15-213.eu-west-1.compute.amazonaws.com",
+    "PublicIpAddress": "54.217.15.213",
+    "State": {
+      "Code": 16,
+      "Name": "running"
+    },
+    "StateTransitionReason": "",
+    "SubnetId": "subnet-43078919",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "7165f90f-71f0-9f6f-85d5-44bba17017ee",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "default",
+        "GroupId": "sg-c0b43bb6"
+      }
+    ],
+    "SourceDestCheck": true,
+    "Tags": [
+      {
+        "Key": "aws:autoscaling:groupName",
+        "Value": "ttest_asg"
+      },
+      {
+        "Key": "aws:ec2launchtemplate:version",
+        "Value": "3"
+      },
+      {
+        "Key": "owner",
+        "Value": "alex.zaslavsky"
+      },
+      {
+        "Key": "aws:ec2launchtemplate:id",
+        "Value": "lt-0512c096edbec40fc"
+      },
+      {
+        "Key": "AUTHOR ",
+        "Value": "AlexZ"
+      },
+      {
+        "Key": "TESTING",
+        "Value": "ASG"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": false,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "DaysActive": 2
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-04dd4500af104442f",
+    "InstanceId": "i-0aa42f250e1a6ffcf",
+    "InstanceType": "t3.nano",
+    "KeyName": "rnd",
+    "LaunchTime": "2022-01-10T14:50:54+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1c",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-40-160.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.40.160",
+    "ProductCodes": [],
+    "PublicDnsName": "",
+    "State": {
+      "Code": 80,
+      "Name": "stopped"
+    },
+    "StateTransitionReason": "User initiated (2022-01-10 15:36:44 GMT)",
+    "SubnetId": "subnet-43078919",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": true,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/xvda",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-2",
+        "GroupId": "sg-062d7c33ebc02fa37"
+      }
+    ],
+    "SourceDestCheck": true,
+    "StateReason": {
+      "Code": "Client.UserInitiatedShutdown",
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+    },
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Nick-tests-AL2"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 2
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": true,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "DaysActive": 1
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-08ca3fed11864d6bb",
+    "InstanceId": "i-031ca5522486c6873",
+    "InstanceType": "t3.nano",
+    "KeyName": "rnd",
+    "LaunchTime": "2022-01-10T15:03:09+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1c",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "PrivateDnsName": "ip-172-31-33-147.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.33.147",
+    "ProductCodes": [],
+    "PublicDnsName": "",
+    "State": {
+      "Code": 80,
+      "Name": "stopped"
+    },
+    "StateTransitionReason": "User initiated (2022-01-10 15:36:44 GMT)",
+    "SubnetId": "subnet-43078919",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": true,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/sda1",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-2",
+        "GroupId": "sg-062d7c33ebc02fa37"
+      }
+    ],
+    "SourceDestCheck": true,
+    "StateReason": {
+      "Code": "Client.UserInitiatedShutdown",
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+    },
+    "Tags": [
+      {
+        "Key": "Name",
+        "Value": "Nick-tests-Ubuntu20"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 1,
+      "ThreadsPerCore": 2
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "enabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Linux/UNIX",
+    "UsageOperation": "RunInstances",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": true,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "DaysActive": 1
+  },
+  {
+    "AmiLaunchIndex": 0,
+    "ImageId": "ami-08b3f7210f8afa7e3",
+    "InstanceId": "i-0da3edfbbcdc2ce25",
+    "InstanceType": "t2.xlarge",
+    "LaunchTime": "2022-01-11T13:54:26+00:00",
+    "Monitoring": {
+      "State": "disabled"
+    },
+    "Placement": {
+      "AvailabilityZone": "eu-west-1a",
+      "GroupName": "",
+      "Tenancy": "default"
+    },
+    "Platform": "windows",
+    "PrivateDnsName": "ip-172-31-1-47.eu-west-1.compute.internal",
+    "PrivateIpAddress": "172.31.1.47",
+    "ProductCodes": [],
+    "PublicDnsName": "ec2-54-220-242-207.eu-west-1.compute.amazonaws.com",
+    "PublicIpAddress": "54.220.242.207",
+    "State": {
+      "Code": 16,
+      "Name": "running"
+    },
+    "StateTransitionReason": "",
+    "SubnetId": "subnet-b9337fdf",
+    "VpcId": "vpc-bbcedddd",
+    "Architecture": "x86_64",
+    "ClientToken": "",
+    "EbsOptimized": false,
+    "EnaSupport": true,
+    "Hypervisor": "xen",
+    "RootDeviceName": "/dev/sda1",
+    "RootDeviceType": "ebs",
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-11",
+        "GroupId": "sg-0b8851073de47ddfd"
+      }
+    ],
+    "SourceDestCheck": true,
+    "Tags": [
+      {
+        "Key": "ZestyDisk",
+        "Value": "true"
+      },
+      {
+        "Key": "Name",
+        "Value": "Adi-Or-Regev-Test"
+      }
+    ],
+    "VirtualizationType": "hvm",
+    "CpuOptions": {
+      "CoreCount": 4,
+      "ThreadsPerCore": 1
+    },
+    "CapacityReservationSpecification": {
+      "CapacityReservationPreference": "open"
+    },
+    "HibernationOptions": {
+      "Configured": false
+    },
+    "MetadataOptions": {
+      "State": "applied",
+      "HttpTokens": "optional",
+      "HttpPutResponseHopLimit": 1,
+      "HttpEndpoint": "enabled",
+      "HttpProtocolIpv6": "disabled",
+      "InstanceMetadataTags": "disabled"
+    },
+    "EnclaveOptions": {
+      "Enabled": false
+    },
+    "PlatformDetails": "Windows",
+    "UsageOperation": "RunInstances:0002",
+    "PrivateDnsNameOptions": {
+      "HostnameType": "ip-name",
+      "EnableResourceNameDnsARecord": true,
+      "EnableResourceNameDnsAAAARecord": false
+    },
+    "DaysActive": 1
+  }
+]
